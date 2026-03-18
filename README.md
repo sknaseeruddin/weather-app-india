@@ -2,7 +2,6 @@
 ### Live Demo
 https://sknaseeruddin.github.io/weather-app-india/
 ## Preview
-
 ![Weather App Screenshot](Screenshot.png)
 
 
