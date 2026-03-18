@@ -1,4 +1,11 @@
 # Weather App India
+### Live Demo
+https://sknaseeruddin.github.io/weather-app-india/
+## Preview
+
+![Weather App Screenshot](Screenshot.png)
+
+
 
 A responsive weather application built using HTML, CSS, and JavaScript that supports village, city, district, and current location search across India.
 
