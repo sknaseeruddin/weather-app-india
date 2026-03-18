@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="weather-container">
+    <h1>🌦️ Weather App</h1>
+    <p class="subtitle">Search villages, cities, and use current location across India</p>
+
+    <div class="search-box">
+      <input type="text" id="city" placeholder="Enter village / city / district" />
+      <button id="searchBtn">Get Weather</button>
+      <button id="locationBtn">Use My Location</button>
+    </div>
+
+    <div class="recent-box">
+      <label for="recentSearches">Recent Searches</label>
+      <select id="recentSearches">
+        <option value="">Select a place</option>
+      </select>
+      <button id="clearRecentBtn" class="secondary-btn">Clear Recent</button>
+    </div>
+
+    <div id="result" class="result-card hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
